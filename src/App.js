@@ -18,7 +18,7 @@ function App() {
       setval("ErroR");
     }
   }
-  return (
+  return(
     <div className="App">
       <h1>Calculator</h1>
       <div className="calciDiv">
