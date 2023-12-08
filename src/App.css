@@ -5,18 +5,26 @@
 }
 .App{
   background-color: grey;
-  height: fit-content;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.App>h1{
+  font-family: 'Poppins', sans-serif;
+  color:rgb(58, 6, 117);
+  margin:10px 0;
+  font-size: 50px;
+}
 .calciDiv{
-  background-color: black;
-  border:2px solid white;
-  width: fit-content;
+  box-shadow: rgb(202, 174, 235) 1px 5px 20px 10px;
+  background-color: rgb(34, 1, 68);
+  width: 10vw;
+  min-width: 280px;
   padding: 10px;
   display: flex;
+  border-radius: 5px;
   flex-direction: column;
 }
 .displayDiv{
@@ -24,27 +32,33 @@
   width: 100%;
   background-color: white;
   margin: 10px 0px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 25px;
   text-align: end;
   padding: 10px;
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-family: 'Saira', sans-serif;
 }
-.btns{
+.btn{
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5px 0;
 }
 button {
-  width: 50px;
-  height: 40px;
-  font-size: 20px;
-  margin: 1.5px;
+  width: 23%;
+  padding: 10px 0;
+  font-size: 25px;
   border-radius: 5px;
   color: white;
-  background-color: rgb(43, 33, 63);
+  font-family: 'Play', sans-serif;
+  border: none;
+  background-color: rgb(102, 74, 156);
 }
 .longBtn{
-  width: 100px;
-  margin: 3px;
+  width: 47%;
+  background-color: rgb(50, 7, 167);
+}
+.clr-btn{
+  background-color: rgba(39, 32, 139, 0.452);
 }

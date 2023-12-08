@@ -25,7 +25,7 @@ function App() {
           <div className="displayDiv">{val}</div>
           <div className="btns">
             <div className="btn">
-              <button className="longBtn" onClick={Clear}>Clear</button>
+              <button className="longBtn clr-btn" onClick={Clear}>Clear</button>
               <button onClick={Back}>←</button>
               <button value='/' onClick={solve}>&divide;</button>
             </div>
@@ -35,7 +35,7 @@ function App() {
               <button value='9' onClick={solve}>9</button>
               <button value='*' onClick={solve}>&times;</button>
             </div>
-            <div className="btn"> 
+            <div className="btn">
               <button value='4' onClick={solve}>4</button>
               <button value='5' onClick={solve}>5</button>
               <button value='6' onClick={solve}>6</button>
