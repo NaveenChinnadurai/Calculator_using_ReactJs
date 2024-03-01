@@ -4,37 +4,40 @@
   box-sizing: border-box;
 }
 .App{
-  background-color: grey;
-  height: 100vh;
+  background-color: black;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
 .App>h1{
   font-family: 'Poppins', sans-serif;
-  color:rgb(58, 6, 117);
-  margin:10px 0;
+  color:rgb(255, 255, 255);
+  margin:20px 0;
   font-size: 50px;
+  text-align: center;
 }
 .calciDiv{
-  box-shadow: rgb(202, 174, 235) 1px 5px 20px 10px;
-  background-color: rgb(34, 1, 68);
-  width: 10vw;
-  min-width: 280px;
+  background-color: rgb(10, 6, 19);
+  width: 20vw;
+  min-width: 300px;
+  max-width: 400px;
   padding: 10px;
   display: flex;
-  border-radius: 5px;
+  border-radius: 10px;
   flex-direction: column;
 }
 .displayDiv{
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: white;
   margin: 10px 0px;
   border-radius: 10px;
-  font-size: 25px;
-  text-align: end;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
   padding: 10px;
   color: black;
   font-weight: 500;
@@ -47,18 +50,36 @@
 }
 button {
   width: 23%;
-  padding: 10px 0;
-  font-size: 25px;
+  padding: 20px 0;
+  font-size: 30px;
   border-radius: 5px;
   color: white;
   font-family: 'Play', sans-serif;
   border: none;
-  background-color: rgb(102, 74, 156);
+  cursor: pointer;
+  background-color: rgb(35, 26, 54);
 }
 .longBtn{
   width: 47%;
-  background-color: rgb(50, 7, 167);
+  background-color: rgb(19, 18, 60);
 }
 .clr-btn{
-  background-color: rgba(39, 32, 139, 0.452);
+  background-color: rgb(19, 18, 60);
+}
+
+
+@media screen and (max-width:600px) {
+  .App>h1{
+    font-size: 30px;
+  }
+
+  .displayDiv{
+    height: 60px;
+    font-size: 25px;
+  }
+  button{
+    padding: 10px 0;
+    font-size: 25px;
+  }
+
 }

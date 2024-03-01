@@ -20,7 +20,7 @@ function App() {
   }
   return(
     <div className="App">
-      <h1>Calculator</h1>
+      <h1>Calculator <br/> React Web App</h1>
       <div className="calciDiv">
           <div className="displayDiv">{val}</div>
           <div className="btns">
