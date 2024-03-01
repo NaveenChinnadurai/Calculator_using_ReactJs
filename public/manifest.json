@@ -1,6 +1,6 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Calculator_using_ReactJs",
   "icons": [
     {
       "src": "./calciLogo.png",
